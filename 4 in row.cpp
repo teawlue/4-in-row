@@ -9,7 +9,7 @@ const int COLS = 8;
 const int EMPTY = 0;
 const int PLAYER = 1;
 const int AI = 2;
-int aiDepth = 7; // Глубина для ИИ
+int aiDepth = 7;
 
 std::vector<std::vector<int>> board(ROWS, std::vector<int>(COLS, EMPTY));
 std::pair<int, int> lastMove{ -1, -1 };
